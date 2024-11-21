@@ -17,57 +17,338 @@
       referrerpolicy="no-referrer"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+      integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <div class="container">
-        <div class="header_flex">
-          <div class="header_social">
-            <ul>
-              <li>
-                <a href="/" title="instagram"
-                  ><i class="fa-brands fa-instagram"></i
-                ></a>
-              </li>
-              <li>
-                <a href="/" title="facebook"
-                  ><i class="fa-brands fa-facebook-f"></i
-                ></a>
-              </li>
-              <li>
-                <a href="/" title="linkedin"
-                  ><i class="fa-brands fa-linkedin-in"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-          <div class="header_logo">
-            <img src="img/logo.png" alt="Logo" />
-          </div>
-          <div class="header_phone">
-            <a href="/" class="header_phone" title="Hemen Ulaşın">
-              <div>
-                <i class="fa-solid fa-phone"></i>
-              </div>
-              <div>
-                <span class="phone_text">Hemen Ulaşın</span>
-                <span class="phone_number">0545 504 0565</span>
-              </div>
-            </a>
+      <div class="top_header"></div>
+      <div class="top_nav">
+        <div class="container">
+          <div class="header_flex">
+            <div class="header_bars">
+              <div class="bar">Menü</div>
+            </div>
+            <div class="header_social">
+              <ul>
+                <li>
+                  <a href="/" title="instagram"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="/" title="facebook"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="/" title="linkedin"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="header_logo">
+              <img src="img/logo.png" alt="Logo" />
+            </div>
+            <div class="header_phone">
+              <a href="/" class="header_phone" title="Hemen Ulaşın">
+                <div>
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                  <span class="phone_text">Hemen Ulaşın</span>
+                  <span class="phone_number">0545 504 0565</span>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
+      <div class="container">
+        <div class="header_links">
+          <ul>
+            <li>
+              <a href="/" title="Anasayfa">Anasayfa</a>
+            </li>
+            <li>
+              <a href="/" title="Hakkımızda">Hakkımızda</a>
+            </li>
+            <li>
+              <a href="/" title="Haberler">Haberler</a>
+            </li>
+            <li>
+              <a href="/" title="Topluluk">Topluluk</a>
+            </li>
+            <li>
+              <a href="/" title="Takımlar">Takımlar</a>
+            </li>
+            <li>
+              <a href="/" title="Ligler">Ligler</a>
+            </li>
+            <li>
+              <a href="/" title="Etkinlikler">Etkinlikler</a>
+            </li>
+            <li>
+              <a href="/" title="İş Birlikleri">İş Birlikleri</a>
+            </li>
+            <li>
+              <a href="/" title="İletişim">İletişim</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header_overlay"></div>
+      </div>
     </header>
     <main>
+      <section class="banner">
+        <video width="100%" autoplay muted>
+          <source src="video/video.mp4" type="video/mp4" />
+        </video>
+      </section>
+
       <section>
-        <div></div>
+        <div class="container">
+          <div class="module_head">
+            <p class="sm_module_title center">
+              <span class="line"></span> Haberler
+            </p>
+            <h2 class="module_title center">Son Gelişmeler</h2>
+            <a href="/" class="end" title="Tümünü Göster"
+              >Tümünü Göster <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="swiper news_slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide news_item">
+                <img src="img/res1.png" alt="News Image" />
+                <div class="news_item_content">
+                  <h3>Lorem Ipsum</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    in labore architecto repellat aliquam error.
+                  </p>
+                  <a href="/" title="Devam"
+                    >Devamını Oku <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="swiper-slide news_item">
+                <img src="img/res2.png" alt="News Image" />
+                <div class="news_item_content">
+                  <h3>Lorem Ipsum</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    in labore architecto repellat aliquam error.
+                  </p>
+                  <a href="/" title="Devam"
+                    >Devamını Oku <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="swiper-slide news_item">
+                <img src="img/res1.png" alt="News Image" />
+                <div class="news_item_content">
+                  <h3>Lorem Ipsum</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    in labore architecto repellat aliquam error.
+                  </p>
+                  <a href="/" title="Devam"
+                    >Devamını Oku <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="swiper-slide news_item">
+                <img src="img/res2.png" alt="News Image" />
+                <div class="news_item_content">
+                  <h3>Lorem Ipsum</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    in labore architecto repellat aliquam error.
+                  </p>
+                  <a href="/" title="Devam"
+                    >Devamını Oku <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="swiper-slide news_item">
+                <img src="img/res1.png" alt="News Image" />
+                <div class="news_item_content">
+                  <h3>Lorem Ipsum</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    in labore architecto repellat aliquam error.Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Ab in labore
+                    architecto repellat aliquam error.
+                  </p>
+                  <a href="/" title="Devam"
+                    >Devamını Oku <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="module_head">
+            <p class="sm_module_title"><span class="line"></span> Takımlar</p>
+            <h2 class="module_title">Drone Soccer Takımlar</h2>
+            <a href="/" class="end" title="Tümünü Göster"
+              >Tümünü Göster <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="teams_area_flex">
+            <div class="swiper teams_slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide team_item">
+                  <div
+                    class="team_logo"
+                    style="background-color: #24704c; border-color: #11e3aa"
+                  ></div>
+                  <div class="team_item_content">
+                    <h3>Lorem Ipsum Soccer</h3>
+                    <a href="/" title="Devam"
+                      >Devamını Oku <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="swiper-slide team_item">
+                  <div
+                    class="team_logo"
+                    style="background-color: #24704c; border-color: #11e3aa"
+                  ></div>
+                  <div class="team_item_content">
+                    <h3>Lorem Ipsum Soccer</h3>
+                    <a href="/" title="Devam"
+                      >Devamını Oku <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="swiper-slide team_item">
+                  <div
+                    class="team_logo"
+                    style="background-color: #24704c; border-color: #11e3aa"
+                  ></div>
+                  <div class="team_item_content">
+                    <h3>Lorem Ipsum Soccer</h3>
+                    <a href="/" title="Devam"
+                      >Devamını Oku <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="swiper-slide team_item">
+                  <div
+                    class="team_logo"
+                    style="background-color: #24704c; border-color: #11e3aa"
+                  ></div>
+                  <div class="team_item_content">
+                    <h3>Lorem Ipsum Soccer</h3>
+                    <a href="/" title="Devam"
+                      >Devamını Oku <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="swiper-slide team_item">
+                  <div
+                    class="team_logo"
+                    style="background-color: #24704c; border-color: #11e3aa"
+                  ></div>
+                  <div class="team_item_content">
+                    <h3>Lorem Ipsum Soccer</h3>
+                    <a href="/" title="Devam"
+                      >Devamını Oku <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="teams_arrows">
+              <div class="teams_arrows_image">
+                <img src="img/logo.png" alt="Logo" />
+              </div>
+              <div class="arrows">
+                <div class="teams_arrow_left">
+                  <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="teams_arrow_right">
+                  <i class="fa-solid fa-angle-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div>
+            <div class="announcements_main">
+              <div class="left">
+                <div class="item">
+                  <img
+                    src="https://storage.acerapps.io/app-1596/KURA%20%C3%87EK%C4%B0M%C4%B0%203.png"
+                    alt="{{ data.title }}"
+                  />
+                  <div class="item_content">
+                    <h3>{{ data.title }}</h3>
+                    <p>{{ data.content }}</p>
+                    <a href="/duyuru/{{ data.link }}">Devamını Oku</a>
+                  </div>
+                </div>
+              </div>
+              <div class="right">
+                <a href="/duyuru/{{ data.link }}" class="item">
+                  <img
+                    src="https://storage.acerapps.io/app-1596/KURA%20%C3%87EK%C4%B0M%C4%B0%203.png"
+                    class="lazyload"
+                    alt="{{ data.title }}"
+                  />
+                  <div class="item_content">
+                    <h3>{{ data.title }}</h3>
+                  </div>
+                </a>
+                <a href="/duyuru/{{ data.link }}" class="item">
+                  <img
+                    src="https://storage.acerapps.io/app-1596/KURA%20%C3%87EK%C4%B0M%C4%B0%203.png"
+                    class="lazyload"
+                    alt="{{ data.title }}"
+                  />
+                  <div class="item_content">
+                    <h3>{{ data.title }}</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <footer></footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"
+      integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"></script>
+
+    <script src="app.js"></script>
   </body>
 </html>
