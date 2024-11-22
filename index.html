@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Anasayfa | Drone Soccer</title>
+
+    <link rel="icon" type="image/png" href="img/logo.png" />
 
     <link
       rel="stylesheet"
@@ -25,95 +27,21 @@
       referrerpolicy="no-referrer"
     />
 
+    <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div class="top_header"></div>
-      <div class="top_nav">
-        <div class="container">
-          <div class="header_flex">
-            <div class="header_bars">
-              <div class="bar">Menü</div>
-            </div>
-            <div class="header_social">
-              <ul>
-                <li>
-                  <a href="/" title="instagram"
-                    ><i class="fa-brands fa-instagram"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="/" title="facebook"
-                    ><i class="fa-brands fa-facebook-f"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="/" title="linkedin"
-                    ><i class="fa-brands fa-linkedin-in"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
-            <div class="header_logo">
-              <img src="img/logo.png" alt="Logo" />
-            </div>
-            <div class="header_phone">
-              <a href="/" class="header_phone" title="Hemen Ulaşın">
-                <div>
-                  <i class="fa-solid fa-phone"></i>
-                </div>
-                <div>
-                  <span class="phone_text">Hemen Ulaşın</span>
-                  <span class="phone_number">0545 504 0565</span>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="header_links">
-          <ul>
-            <li>
-              <a href="/" title="Anasayfa">Anasayfa</a>
-            </li>
-            <li>
-              <a href="/" title="Hakkımızda">Hakkımızda</a>
-            </li>
-            <li>
-              <a href="/" title="Haberler">Haberler</a>
-            </li>
-            <li>
-              <a href="/" title="Topluluk">Topluluk</a>
-            </li>
-            <li>
-              <a href="/" title="Takımlar">Takımlar</a>
-            </li>
-            <li>
-              <a href="/" title="Ligler">Ligler</a>
-            </li>
-            <li>
-              <a href="/" title="Etkinlikler">Etkinlikler</a>
-            </li>
-            <li>
-              <a href="/" title="İş Birlikleri">İş Birlikleri</a>
-            </li>
-            <li>
-              <a href="/" title="İletişim">İletişim</a>
-            </li>
-          </ul>
-        </div>
-        <div class="header_overlay"></div>
-      </div>
-    </header>
+    <header></header>
     <main>
+      <!-- Banner -->
       <section class="banner">
         <video width="100%" autoplay muted>
           <source src="video/video.mp4" type="video/mp4" />
         </video>
       </section>
 
+      <!-- Haberler -->
       <section>
         <div class="container">
           <div class="module_head">
@@ -201,6 +129,7 @@
         </div>
       </section>
 
+      <!-- Takımlar -->
       <section>
         <div class="container">
           <div class="module_head">
@@ -294,12 +223,11 @@
         </div>
       </section>
 
+      <!-- Etkinlikler -->
       <section class="activity_sect">
         <div class="container">
           <div class="module_head">
-            <p class="sm_module_title">
-              <span class="line"></span> Etkinlik
-            </p>
+            <p class="sm_module_title"><span class="line"></span> Etkinlik</p>
             <h2 class="module_title">Yaklaşan Etkinlikler</h2>
             <a href="/" class="end" title="Tümünü Göster"
               >Tümünü Göster <i class="fa-solid fa-arrow-right"></i>
@@ -322,12 +250,18 @@
                       bir hurufat numune kitabı oluşturmak üzere bir yazı
                       galerisini alarak.
                     </p>
-                    <a href="/duyuru/">Detaylı Bilgi <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="/duyuru/" title="Detaylı Bilgi"
+                      >Detaylı Bilgi <i class="fa-solid fa-arrow-right"></i
+                    ></a>
                   </div>
                 </div>
               </div>
               <div class="right">
-                <a href="/duyuru/" class="item">
+                <a
+                  href="/duyuru/"
+                  title="Lorem Ipsum Drone Soccer Türkiye"
+                  class="item"
+                >
                   <img
                     src="img/act2.png"
                     class="lazyload"
@@ -354,6 +288,282 @@
           </div>
         </div>
       </section>
+
+      <!-- Turnuva Takvimi -->
+      <section>
+        <div class="container">
+          <div class="module_head">
+            <p class="sm_module_title"><span class="line"></span> Ligler</p>
+            <h2 class="module_title">Turnuva Takvimi</h2>
+            <a href="/" class="end" title="Tümünü Göster"
+              >Tümünü Göster <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <table class="table table-responsive table_soccer">
+            <tbody>
+              <tr>
+                <td>Drone Soccer Türkiye 1st National Tournament</td>
+                <td>30 Ocak- 1 Şubat 2025</td>
+                <td>
+                  <a href="/" title="Detaylı İncele"
+                    >Detaylı İncele <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <td>FAI-German Drone Soccer Competition</td>
+                <td>14-16 Mart 2025</td>
+                <td>
+                  <a href="/" title="Detaylı İncele"
+                    >Detaylı İncele <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <td>FIDA - USA World Cup Warm Up Tournament</td>
+                <td>21-23 Mart 2025</td>
+                <td>
+                  <a href="/" title="Detaylı İncele"
+                    >Detaylı İncele <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <td>MRC Global Olympiad</td>
+                <td>11-14 Nisan 2025</td>
+                <td>
+                  <a href="/" title="Detaylı İncele"
+                    >Detaylı İncele <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <td>Academic Drone Soccer World Cup</td>
+                <td>23-24 Nisan 2025</td>
+                <td>
+                  <a href="/" title="Detaylı İncele"
+                    >Detaylı İncele <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <td>FIDA Drone Soccer Türkiye World Cup</td>
+                <td>24-25 Mayıs 2025</td>
+                <td>
+                  <a href="/" title="Detaylı İncele"
+                    >Detaylı İncele <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <td>Academic Drone Soccer World Cup</td>
+                <td>21-24 Eylül 2025</td>
+                <td>
+                  <a href="/" title="Detaylı İncele"
+                    >Detaylı İncele <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Hakkımızda -->
+      <section>
+        <div class="container">
+          <div class="row dual_module">
+            <div class="col-lg-6 col-12">
+              <video
+                class="video-js"
+                controls
+                preload="auto"
+                width="640"
+                height="264"
+                poster="img/logo.png"
+                data-setup="{}"
+              >
+                <source src="video/video.mp4" type="video/mp4" />
+                <p class="vjs-no-js">
+                  To view this video please enable JavaScript, and consider
+                  upgrading to a web browser that
+                  <a
+                    href="https://videojs.com/html5-video-support/"
+                    target="_blank"
+                    >supports HTML5 video</a
+                  >
+                </p>
+              </video>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="module_head">
+                <p class="sm_module_title">
+                  <span class="line"></span> Hakkımızda
+                </p>
+                <h2 class="module_title">Drone Soccer Türkiye</h2>
+              </div>
+              <div class="dual_module_content holder">
+                <p>
+                  Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır
+                  metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir
+                  hurufat numune kitabı oluşturmak üzere bir yazı galerisini
+                  alarak karıştırdığı 1500'lerden beri endüstri standardı sahte
+                  metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını
+                  sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik
+                  dizgiye de sıçramıştır.
+                </p>
+                <p>
+                  1960'larda Lorem Ipsum pasajları da içeren Letraset
+                  yapraklarının yayınlanması ile ve yakın zamanda Aldus
+                  PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü
+                  yayıncılık yazılımları ile popüler olmuştur.
+                </p>
+              </div>
+              <a href="/" title="Detaylı Bilgi">Detaylı Bilgi</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Yatay Modül -->
+      <section class="hori_module">
+        <div class="hori_bg">
+          <img src="img/hori.png" alt="asd" />
+        </div>
+        <div class="container">
+          <div class="hori_content">
+            <h2>
+              Haber Bültenimize <span class="blue">Abone Olarak</span> Her Zaman
+              Haberdar Olun!
+            </h2>
+            <a href="/" title="Abone Olun">Abone Olun</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- İletişim -->
+      <section>
+        <div class="container">
+          <div class="row contact_module">
+            <div class="col-md-6 col-12 ps-md-0">
+              <img src="img/contact.png" alt="İletişime Geç" />
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="contact_module_area">
+                <div class="module_head">
+                  <p class="sm_module_title">
+                    <span class="line"></span> İletişim
+                  </p>
+                  <h2 class="module_title">Bize Ulaşın</h2>
+                </div>
+                <form class="contact_form">
+                  <div class="form_flex">
+                    <div>
+                      <input
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="Adınız Soyadınız"
+                      />
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="Email Adresiniz"
+                      />
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="Telefon Numaranız"
+                      />
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="Mesajınız"
+                      />
+                    </div>
+                    <div>
+                      <button>Gönder</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Logolar -->
+      <section>
+        <div class="container">
+          <div class="ref_flex">
+            <div>
+              <img src="img/logo.png" alt="Logo" />
+            </div>
+            <div>
+              <img src="img/logo.png" alt="Logo" />
+            </div>
+            <div>
+              <img src="img/logo.png" alt="Logo" />
+            </div>
+            <div>
+              <img src="img/logo.png" alt="Logo" />
+            </div>
+            <div>
+              <img src="img/logo.png" alt="Logo" />
+            </div>
+            <div>
+              <img src="img/logo.png" alt="Logo" />
+            </div>
+            <div>
+              <img src="img/logo.png" alt="Logo" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sm Takip -->
+      <section class="hori_module">
+        <div class="container">
+          <div class="hori_bg">
+            <img src="img/hori2.png" alt="asd" />
+          </div>
+          <div class="hori_content sm">
+            <h2>
+              Sosyal Medya'da
+              <span class="blue">Bizi Takip Edin! </span>
+            </h2>
+            <div class="header_social">
+              <ul>
+                <li>
+                  <a href="/" title="instagram"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="/" title="facebook"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="/" title="linkedin"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -365,6 +575,7 @@
       referrerpolicy="no-referrer"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"></script>
+    <script src="https://vjs.zencdn.net/8.16.1/video.min.js"></script>
 
     <script src="app.js"></script>
   </body>
