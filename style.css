@@ -514,7 +514,7 @@ main {
   }
   .news_item img {
     height: 9rem;
-}
+  }
 }
 
 .teams_area_flex {
@@ -749,11 +749,46 @@ main {
 .activity_main.detail > .item {
   height: auto;
 }
+
+.activity_main.detail img {
+  width: 100%;
+  max-height: 30rem;
+  object-fit: contain;
+}
+
 .activity_main > .item:first-child {
   width: 100%;
 }
 .activity_main > .item {
   width: calc((100% / 2) - 0.5rem);
+}
+
+.activity_flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.activity_flex .item img {
+  height: 17rem;
+}
+
+.activity_flex > .item {
+  width: calc((100% / 3) - 0.67rem) !important;
+  height: auto;
+}
+
+.activity_flex .item_content {
+  height: auto;
+}
+
+.activity_flex .item_content p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 @media (max-width: 992px) {
@@ -774,6 +809,14 @@ main {
 
   .activity_main .item {
     width: 100%;
+  }
+
+  .activity_flex {
+    flex-direction: row;
+  }
+
+  .activity_flex > .item {
+    width: calc((100% / 2) - 0.5rem) !important;
   }
 }
 
@@ -805,6 +848,16 @@ main {
   }
   .activity_main .right .item {
     height: 100%;
+  }
+
+  .activity_flex .item img {
+    height: 13rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .activity_flex .item {
+    width: 100%;
   }
 }
 
@@ -875,7 +928,8 @@ table {
   flex-direction: row-reverse;
 }
 
-.dual_module .video-js {
+.dual_module .video-js,
+.dual_module img {
   min-height: 25rem;
   object-fit: cover;
   width: 100%;
@@ -900,7 +954,7 @@ table {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem 2rem;
+  padding: 0.6rem 2rem;
   border-radius: 2rem;
   margin-top: 1rem;
 }
@@ -1191,4 +1245,16 @@ table {
   .page_banner_content {
     padding: 4rem 0;
   }
+}
+
+.dual_module .team_item {
+  background-color: #FAFEFF;
+  border: 1px solid #E8F2F5;
+  width: 12rem;
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  margin-bottom: 1.2rem;
 }
